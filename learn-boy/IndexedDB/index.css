@@ -1,0 +1,33 @@
+body * {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.left-panel, .right-panel {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 50%;
+    padding: 0.5rem;
+}
+
+.left-panel textarea {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    min-height: 350px;
+}
+
+.left-panel button {
+    display: block;
+    margin-top: 0.5rem;
+    cursor: pointer;
+}

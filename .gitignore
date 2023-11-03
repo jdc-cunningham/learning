@@ -1,0 +1,9 @@
+# files
+.exe
+.pyc
+.so
+.DS_Store
+
+# folders
+node_modules/
+build/
