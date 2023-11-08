@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Test",
+  "version": "1.0",
+
+  "description": "Follow",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.mozilla.org/*"],
+      "js": ["script.js"]
+    }
+  ]
+}
